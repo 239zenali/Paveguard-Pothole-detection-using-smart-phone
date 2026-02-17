@@ -1,5 +1,5 @@
-🚧 PaveGuard
-Real-Time Urban Pothole Detection Using Smartphone IMU & GPS Data
+__🚧 PaveGuard
+Real-Time Urban Pothole Detection Using Smartphone IMU & GPS Data__
 
 
 
@@ -132,6 +132,13 @@ Longitude
 Severity Level
 Timestamp
 Sensor Magnitude Values
+
+** 🎥 Project Demo Video**
+
+Watch the full demonstration here:
+
+👉 [Click to Watch Demo Video](https://drive.google.com/file/d/1cDcQm2U2xCpTCMsajPseZvksGIMCJdXx/view?usp=sharing)
+
 
 **🌍 Real-World Impact**
 
