@@ -1,15 +1,15 @@
-🚧 PaveGuard
+**🚧 PaveGuard
 Real-Time Urban Pothole Detection Using Smartphone IMU & GPS Data
+**
 
 
-
-📌 Abstract
+**📌 Abstract**
 
 Potholes significantly impact urban transportation by causing vehicle damage, traffic congestion, and increased maintenance costs. Traditional detection methods rely on manual inspection and citizen reporting, which are inefficient and inconsistent.
 PaveGuard introduces a real-time, smartphone-based pothole detection and prediction system that leverages built-in Accelerometer, Gyroscope, and GPS sensors. The system processes IMU data using adaptive statistical thresholding and rolling window analysis to detect abnormal vibration signatures. Confirmed potholes are geo-tagged and stored in Firebase for monitoring and smart-city road maintenance planning.
 This solution is scalable, cost-effective, and requires no external hardware.
 
-🎯 Key Features
+**🎯 Key Features**
 
 📈 Real-time Accelerometer & Gyroscope Monitoring
 📊 Rolling Window Statistical Thresholding
@@ -20,10 +20,11 @@ This solution is scalable, cost-effective, and requires no external hardware.
 ⏱ Debounce Logic for False Positive Reduction
 🗺️ Live Pothole Map Visualization
 
-🧠 System Architecture
+**🧠 System Architecture**
 
-Smartphone Sensors (IMU)
+*Smartphone Sensors (IMU)
         ↓
+        
 Magnitude Calculation
         ↓
 Rolling Window Buffer (50 samples)
@@ -40,7 +41,7 @@ GPS Tagging
         ↓
 Firebase Firestore
         ↓
-Map Visualization + User Alert
+Map Visualization + User Alert*
 
 🔬 Detection Algorithm
 
@@ -84,43 +85,29 @@ Cloud Database	Firebase Firestore
 State Management	Flutter Reactive UI
 Statistical Processing	Rolling Mean & Std Dev
 
-📱 Application Modules
+**📱 Application Modules**
 
-📊 Sensor Dashboard
+**📊 Sensor Dashboard**
 
 Real-time IMU visualization
 Acceleration (X, Y, Z)
 Gyroscope (X, Y, Z)
 Start / Pause / Stop sensing
 
-🗺️ Pothole Map Interface
+**🗺️ Pothole Map Interface**
 
 Live user location tracking
 Visual warning icons
 Nearby pothole awareness
 
-🔔 Alert System
+**🔔 Alert System**
 
 Snackbar notification
 Haptic vibration feedback
 
-📂 Project Structure
-paveguard/
-│
-├── lib/
-│   ├── main.dart
-│   ├── services/
-│   ├── models/
-│   ├── screens/
-│   └── utils/
-│
-├── android/
-├── ios/
-├── assets/
-├── pubspec.yaml
-└── README.md
 
-🚀 Installation & Setup
+**🚀 Installation & Setup**
+
 1️⃣ Clone Repository
 git clone https://github.com/239zenali/Paveguard-Pothole-detection-using-smart-phone.git
 cd Paveguard-Pothole-detection-using-smart-phone
@@ -137,7 +124,7 @@ Configure iOS if required
 4️⃣ Run Application
 flutter run
 
-📊 Data Stored in Firestore
+**📊 Data Stored in Firestore**
 
 Each detected pothole contains:
 Latitude
@@ -146,7 +133,7 @@ Severity Level
 Timestamp
 Sensor Magnitude Values
 
-🌍 Real-World Impact
+**🌍 Real-World Impact**
 
 Enhances road safety
 Reduces vehicle maintenance costs
@@ -154,7 +141,7 @@ Enables predictive infrastructure planning
 Supports Smart City initiatives
 Provides scalable urban monitoring
 
-📈 Future Enhancements
+**📈 Future Enhancements**
 
 Machine Learning-based pothole classification
 Severity estimation model
@@ -163,7 +150,7 @@ Government admin dashboard
 Crowdsourced multi-user data aggregation
 Predictive pothole formation analytics
 
-📚 Research References
+**📚 Research References**
 
 Smartphone-based vibration anomaly detection studies
 Adaptive thresholding for mobile IMU systems
