@@ -1,6 +1,6 @@
-**🚧 PaveGuard
+🚧 PaveGuard
 Real-Time Urban Pothole Detection Using Smartphone IMU & GPS Data
-**
+
 
 
 **📌 Abstract**
