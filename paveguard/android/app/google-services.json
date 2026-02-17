@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "690684627465",
+    "project_id": "pothole-detection-app-70f78",
+    "storage_bucket": "pothole-detection-app-70f78.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690684627465:android:e309e9f30a612638bd46d8",
+        "android_client_info": {
+          "package_name": "Pave.GuardAI"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8pwEMxMAmD1bE5twIx9fGZfOVcNtfkKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690684627465:android:661859efe5bbd75dbd46d8",
+        "android_client_info": {
+          "package_name": "com.example.paveguard_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8pwEMxMAmD1bE5twIx9fGZfOVcNtfkKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
